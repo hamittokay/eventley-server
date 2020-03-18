@@ -1,0 +1,25 @@
+{
+  "name": "eventley-server",
+  "version": "1.0.0",
+  "description": "Backend service of Eventley app.",
+  "main": "index.js",
+  "module": "./src/app",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./src/app"
+  },
+  "author": "Hamit Tokay <hamittokay.me@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mongodb": "^3.5.4",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
